@@ -3,11 +3,12 @@
 
 //QUESTION 1:Convert the value to a number
 const number = "45";
-console.log(Number(number));
+x=Number(number)
+console.log(x);
 
 //QUESTION 2: 
-const printSum = "20" + 40;  //let the result print 60. //*hint: 60.*
-console.log(+printSum);
+const printSum = (parseInt(20) + 40).toString();  //let the result print 60. //*hint: 60.*
+console.log(printSum);
 
 const sentence = "I am " + (23 + 4) +" " + "years old"; //*hint: “I am 27 years old”*
 console.log(sentence);
@@ -44,6 +45,13 @@ if (averageScore > 0 && averageScore < 100)
 }
 else
     console.log("The test score is out of range!");
+
+//QUESTION 6: Write a program, that will count from 1 to 20.
+let count = 1;
+
+for (count; count <=20; count++){
+    console.log(count);
+}
 
 
 
