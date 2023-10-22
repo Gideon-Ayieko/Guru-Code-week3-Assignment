@@ -6,8 +6,8 @@ const number = "45";
 x=Number(number)
 console.log(x);
 
-//QUESTION 2: 
-const printSum = (parseInt(20) + 40).toString();  //let the result print 60. //*hint: 60.*
+//QUESTION 2: let the result print 60. //*hint: 60.*
+const printSum = (parseInt(20) + 40).toString();  
 console.log(printSum);
 
 const sentence = "I am " + (23 + 4) +" " + "years old"; //*hint: “I am 27 years old”*
